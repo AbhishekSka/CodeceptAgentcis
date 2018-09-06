@@ -8,13 +8,13 @@ class StepLogin extends \AcceptanceTester
 {
 
 
-    public $mail;
+/*    public $mail;
     public $pass;
     public function __construct($email, $password)
     {
         $this->mail=$email;
         $this->pass = $password;
-    }
+    }*/
 
     public function loginEntries($email, $password)
     {

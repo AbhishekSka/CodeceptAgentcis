@@ -7,6 +7,10 @@
 actor: AcceptanceTester
 modules:
     enabled:
-        - PhpBrowser:
-            url: http://democis.agentcisapp.com
+#        - PhpBrowser:
+#            url: http://democis.agentcisapp.com
+
+        - WebDriver:
+            url: 'http://democis.agentcisapp.com'
+            browser: chrome # 'chrome' or 'firefox'
         - \Helper\Acceptance

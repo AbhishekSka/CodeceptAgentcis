@@ -24,7 +24,7 @@ services:
     image: 'selenium/standalone-firefox-debug:2.53.1'
     ports:
     - '5900'
-    # workaround for Docker for Mac, see https://github.com/SeleniumHQ/docker-selenium/issues/227#issuecomment-224865735
+    # workaround for Docker for Mac, see https://github.com/SeleniumHQ/docker-selenium/issues/227#issuecomment-224865735doc
     dns: 8.8.4.4
     environment:
     - no_proxy=localhost
